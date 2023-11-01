@@ -1,0 +1,62 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: mono;
+  src: url(./digital-7.ttf);
+}
+
+.card {
+  width: 650px;
+  height: 300px;
+  border-radius: 10px;
+  background-color: black;
+  margin: auto;
+  margin-top: 200px;
+  display: flex;
+  border: 10px solid grey;
+}
+
+.flex {
+  font-size: 70px;
+  width: 500px;
+  
+  font-family: mono;
+  display: flex;
+  gap: 3rem;
+  margin-left: 4rem;
+  margin-top: 3rem;
+  justify-content: center;
+  color: lime;
+}
+
+.flex-2 {
+  font-family: mono;
+  font-size: 50px;
+  display: flex;
+  margin-left: -8rem;
+  gap: 1rem;
+  margin-top: 11.5rem;
+  color: lime;
+}
+
+.time {
+  display: flex;
+  font-size: 20px;
+  gap: 1rem;
+  color: white;
+  margin-top: 11rem;
+ margin-left: -20rem;
+  gap: 2.5rem;
+}
+
+.times {
+  font-family: mono;
+  font-weight: 700;
+  
+  
+}
+
